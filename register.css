@@ -1,0 +1,46 @@
+body{
+    background-image: url("gra.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.online_form{
+    background-color: #6aca83;
+    width: 40%;
+    border: 1px solid #000000;
+    padding: 1%;
+    margin:auto;
+}
+input[type=text] {
+    width: 100%;
+    line-height: 2em; 
+    /* padding: 8px 20px;
+    margin: 8px 0; */
+    display: inline-block;
+    border: 1% solid rgb(204, 204, 204);
+    /* border-radius: 4px; */
+    box-sizing: border-box;
+}
+
+input[type=date] {
+    width: 100%;
+    line-height: 2em; 
+    /* padding: 8px 20px;
+    margin: 8px 0; */
+    display: inline-block;
+    border: 1% solid rgb(204, 204, 204);
+    /* border-radius: 4px; */
+    box-sizing: border-box;
+}
+
+button{
+    width: 30%;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 1%;
+    border-radius: 5px;
+}
+span{
+    color:#ff0000;
+    text-align: right;
+}

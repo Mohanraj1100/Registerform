@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet"  a href="register.css">
+
+</head>
+<body>
+        <form >
+            <div class="online_form">
+                <div>
+                    <h1>Register Form</h1>
+                </div>
+                <div>
+                    <label>Name:</label>
+                    <input type="text" id="full_name" placeholder="Eg.Mohanraj" onkeyup="validate_Name()">
+                    <span id="name-error"></span>
+                </div>
+                <div>
+                    <label>E-mail Id:</label>
+                    <input type="text" id="mail" placeholder="Eg.mohan@gmail.com" onkeyup="validate_Mail()">
+                    <span id="mail-error"></span>
+                </div>
+                <div>
+                    <label>DateOfBirth</label>
+                    <input type="date" id="date"  onkeyup="validate_Date()">
+                    <span id="dob-error"></span>
+                </div>
+                <div>
+                    <label>PhoneNumber</label>
+                    <input type="text" id="num" placeholder="Eg.9789876543" onkeyup="validate_Phone()" >
+                    <span id="num-error"></span>
+                </div> 
+                <div>
+                    <button onclick="validate_Data()"></buttononclick>Submit</button>
+                    <span id="submit-error"></span>
+                </div> 
+            </div>
+        </form>
+    <script src="register.js"></script>
+</body>
+</html>
